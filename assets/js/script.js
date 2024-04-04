@@ -48,7 +48,7 @@ function createTaskCard(task) {
 // Todo: create a function to render the task list and make cards draggable
 function renderTaskList() {
 if(!taskList) {
-    taskList==[]
+    taskList=[]
 }
 let  todoCard=$('#todo-cards')
 let inProgress=$('#in-progress-cards')
